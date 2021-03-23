@@ -1,5 +1,5 @@
 {
-  "name": "@slap/text-buffer",
+  "name": "@slaap/text-buffer",
   "version": "13.18.5",
   "description": "A container for large mutable strings with annotated regions",
   "main": "./lib/text-buffer",

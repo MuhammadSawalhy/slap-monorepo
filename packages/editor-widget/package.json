@@ -1,5 +1,5 @@
 {
-  "name": "@slap-editor/editor-widget",
+  "name": "@slaap/editor-widget",
   "version": "1.1.1",
   "description": "Editor widget used by slap-editor/slap",
   "main": "index.js",
