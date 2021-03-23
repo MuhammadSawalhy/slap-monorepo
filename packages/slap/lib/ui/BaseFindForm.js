@@ -2,10 +2,10 @@ var _ = require('lodash');
 
 var Slap = require('./Slap');
 var BaseForm = require('./BaseForm');
-var BaseWidget = require('base-widget');
-var Field = require('editor-widget').Field;
+var BaseWidget = require('@slaap/base-widget');
+var Field = require('@slaap/editor-widget').Field;
 
-var util = require('slap-util');
+var util = require('@slaap/slap-util');
 
 function BaseFindForm (opts) {
   var self = this;

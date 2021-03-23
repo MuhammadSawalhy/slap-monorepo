@@ -3,7 +3,7 @@
 
 var test = require('tape');
 var Promise = require('bluebird');
-var util = require('base-widget/spec/util');
+var util = require('@slaap/base-widget/spec/util');
 global.Promise = Promise; // FIXME: for pathwatcher
 
 var cli = require('../lib/cli');

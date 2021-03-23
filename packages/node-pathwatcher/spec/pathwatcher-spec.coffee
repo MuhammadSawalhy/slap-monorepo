@@ -5,7 +5,7 @@ temp = require 'temp'
 
 temp.track()
 
-describe 'PathWatcher', ->
+describe '@slaap/PathWatcher', ->
   tempDir = temp.mkdirSync('node-pathwatcher-directory')
   tempFile = path.join(tempDir, 'file')
 

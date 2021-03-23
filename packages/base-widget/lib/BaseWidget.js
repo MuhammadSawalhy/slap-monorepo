@@ -1,9 +1,9 @@
 var Promise = require('bluebird');
 var blessed = require('blessed');
 var _ = require('lodash');
-var Point = require('text-buffer/lib/point');
+var Point = require('@slaap/text-buffer/lib/point');
 
-var util = require('slap-util');
+var util = require('@slaap/slap-util');
 var baseWidgetOpts = require('./opts');
 
 function BaseWidget (opts) {

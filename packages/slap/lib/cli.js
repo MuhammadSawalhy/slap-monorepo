@@ -3,7 +3,7 @@ var _ = require('lodash');
 var path = require('path');
 var rc = require('rc');
 
-var util = require('slap-util');
+var util = require('@slaap/slap-util');
 var ttys = require('ttys');
 var package = require('../package');
 var baseDir = path.join(__dirname, '..');
@@ -63,7 +63,7 @@ if (opts.perf.profile && process.execArgv.indexOf('--prof') === -1) {
 global.Promise = require('bluebird');
 var fs = Promise.promisifyAll(require('fs'));
 
-var blessed = require('base-widget').blessed;
+var blessed = require('@slaap/base-widget').blessed;
 var Slap = require('./ui/Slap');
 var EditorPane = require('./ui/EditorPane');
 

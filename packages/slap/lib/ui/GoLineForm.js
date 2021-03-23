@@ -1,6 +1,6 @@
 var _ = require('lodash');
 
-var BaseWidget = require('base-widget');
+var BaseWidget = require('@slaap/base-widget');
 
 var Slap = require('./Slap');
 var BaseFindForm = require('./BaseFindForm');

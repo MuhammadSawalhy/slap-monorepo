@@ -13,7 +13,7 @@
     "fs-plus": "^3.0.0",
     "grim": "^2.0.2",
     "mkdirp": "^0.5.1",
-    "pathwatcher": "file:../node-pathwatcher",
+    "@slaap/pathwatcher": "file:../node-pathwatcher",
     "serializable": "^1.0.3",
     "underscore-plus": "^1.0.0",
     "winattr": "^3.0.0"

@@ -6,10 +6,10 @@ var path = require('path');
 var clap = require('node-clap');
 var mkdirp = Promise.promisify(require('mkdirp'));
 
-var util = require('slap-util');
+var util = require('@slaap/slap-util');
 
-var BaseWidget = require('base-widget');
-var Editor = require('editor-widget');
+var BaseWidget = require('@slaap/base-widget');
+var Editor = require('@slaap/editor-widget');
 
 var fs = require('fs');
 

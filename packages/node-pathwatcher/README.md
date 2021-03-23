@@ -17,7 +17,7 @@ npm install pathwatcher
 ## Using
 
 ```coffeescript
-PathWatcher = require 'pathwatcher'
+PathWatcher = require '@slaap/pathwatcher'
 ```
 
 ### PathWatcher.watch(filename, [listener])

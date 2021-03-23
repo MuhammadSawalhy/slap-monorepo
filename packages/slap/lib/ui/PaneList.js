@@ -1,7 +1,7 @@
 var _ = require('lodash');
 
-var util = require('slap-util');
-var BaseWidget = require('base-widget');
+var util = require('@slaap/slap-util');
+var BaseWidget = require('@slaap/base-widget');
 
 var Pane = require('./Pane');
 var Slap = require('./Slap');

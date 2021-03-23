@@ -1,7 +1,7 @@
 var _ = require('lodash');
 
-var BaseWidget = require('base-widget');
-var Field = require('editor-widget').Field;
+var BaseWidget = require('@slaap/base-widget');
+var Field = require('@slaap/editor-widget').Field;
 var Slap = require('./Slap');
 var BaseForm = require('./BaseForm');
 var Label = require('./Label');

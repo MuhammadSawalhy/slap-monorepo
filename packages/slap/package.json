@@ -8,18 +8,18 @@
   },
   "bugs": "https://github.com/slap-editor/slap/issues",
   "dependencies": {
-    "base-widget": "1.1.0",
+    "@slaap/base-widget": "1.1.0",
     "blessed": "^0.1.81",
     "bluebird": "^3.4.1",
     "lodash": "^4.14.2",
     "mkdirp": "^0.5.1",
     "rc": "^1.1.6",
-    "slap-util": "^1.0.7",
+    "@slaap/slap-util": "^1.0.7",
     "ttys": "0.0.3",
     "update-notifier": "1.0.3"
   },
   "deps": {
-    "editor-widget": "1.1.1"
+    "@slaap/editor-widget": "1.1.1"
   },
   "devDependencies": {
     "get-random-port": "0.0.1"

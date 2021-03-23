@@ -5,17 +5,17 @@ var extname = require('path').extname;
 var lodash = require('lodash');
 require('es6-set/implement'); // required for text-buffer
 if (require('semver').lt(process.version, '4.0.0')) require('iconv-lite').extendNodeEncodings(); // FIXME: destroy this abomination
-var TextBuffer = require('text-buffer');
-var Point = require('text-buffer/lib/point');
-var Range = require('text-buffer/lib/range');
+var TextBuffer = require('@slaap/text-buffer');
+var Point = require('@slaap/text-buffer/lib/point');
+var Range = require('@slaap/text-buffer/lib/range');
 var clipboard = Promise.promisifyAll(require('copy-paste'));
 
-var util = require('slap-util');
+var util = require('@slaap/slap-util');
 var word = require('./word');
 var editorWidgetOpts = require('./opts');
 var highlightClient = require('./highlight/client');
 
-var BaseWidget = require('base-widget');
+var BaseWidget = require('@slaap/base-widget');
 
 function Editor (opts) {
   var self = this;

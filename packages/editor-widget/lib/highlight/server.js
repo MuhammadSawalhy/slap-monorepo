@@ -3,7 +3,7 @@
 var hljs = require('highlight.js'); hljs.configure({classPrefix: ''});
 var cheerio = require('cheerio');
 
-var util = require('slap-util');
+var util = require('@slaap/slap-util');
 
 function highlight (text, language) {
   if (language === false) return [];

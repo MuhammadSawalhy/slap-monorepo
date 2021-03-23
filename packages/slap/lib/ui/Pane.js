@@ -1,8 +1,8 @@
 var _ = require('lodash');
 
-var util = require('slap-util');
+var util = require('@slaap/slap-util');
 
-var BaseWidget = require('base-widget');
+var BaseWidget = require('@slaap/base-widget');
 
 Pane.prototype.__proto__ = BaseWidget.prototype;
 function Pane (opts) {

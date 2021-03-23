@@ -1,6 +1,6 @@
 var _ = require('lodash');
 
-var util = require('slap-util');
+var util = require('@slaap/slap-util');
 var editorWidgetOpts = require('./opts');
 
 var Editor = require('./Editor');

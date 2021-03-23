@@ -8,7 +8,7 @@ const Range = require('../src/range')
 const TextBuffer = require('../src/text-buffer')
 const {TextBuffer: NativeTextBuffer} = require('superstring')
 const fsAdmin = require('fs-admin')
-const pathwatcher = require('pathwatcher')
+const pathwatcher = require('@slaap/pathwatcher')
 const winattr = require('winattr')
 
 process.on('unhandledRejection', console.error)

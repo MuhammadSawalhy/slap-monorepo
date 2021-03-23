@@ -1,9 +1,9 @@
 var blessed = require('blessed');
 var _ = require('lodash');
 
-var util = require('slap-util');
+var util = require('@slaap/slap-util');
 
-var BaseWidget = require('base-widget');
+var BaseWidget = require('@slaap/base-widget');
 var Slap = require('./Slap');
 
 function Label (opts) {

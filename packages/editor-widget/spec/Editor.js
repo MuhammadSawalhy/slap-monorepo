@@ -5,7 +5,7 @@ var test = require('tape');
 var fs = require('fs');
 var path = require('path');
 
-var Screen = require('base-widget/spec/util').screenFactory;
+var Screen = require('@slaap/base-widget/spec/util').screenFactory;
 var Editor = require('../.');
 
 test("Editor", function (t) {

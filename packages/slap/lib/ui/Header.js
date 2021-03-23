@@ -2,9 +2,9 @@ var _ = require('lodash');
 var blessed = require('blessed');
 var path = require('path');
 
-var util = require('slap-util');
+var util = require('@slaap/slap-util');
 
-var BaseWidget = require('base-widget');
+var BaseWidget = require('@slaap/base-widget');
 var Slap = require('./Slap');
 var Button = require('./Button');
 
