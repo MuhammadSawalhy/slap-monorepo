@@ -3,7 +3,7 @@
 Point = require "./point"
 Range = require "./range"
 Marker = require "./marker"
-{MarkerIndex} = require "superstring"
+{MarkerIndex} = require "@slaap/superstring"
 {intersectSet} = require "./set-helpers"
 
 SerializationVersion = 2

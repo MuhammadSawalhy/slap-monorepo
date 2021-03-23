@@ -1,4 +1,4 @@
-const {Patch} = require('superstring')
+const {Patch} = require('@slaap/superstring')
 const Range = require('./range')
 const {traversal} = require('./point-helpers')
 

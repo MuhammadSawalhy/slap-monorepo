@@ -1,4 +1,4 @@
-const {Patch} = require('superstring')
+const {Patch} = require('@slaap/superstring')
 const {Emitter} = require('event-kit')
 const Point = require('./point')
 const Range = require('./range')
