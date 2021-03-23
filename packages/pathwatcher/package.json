@@ -10,7 +10,7 @@
     "fs-plus": "^3.0.0",
     "grim": "^2.0.2",
     "iconv-lite": "0.4.13",
-    "nan": "^2.10.0",
+    "nan": "^2.14.2",
     "underscore-plus": "^1.0.0"
   },
   "devDependencies": {

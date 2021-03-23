@@ -1,0 +1,46 @@
+{
+  "name": "@slaap/superstring",
+  "description": "A data structure to efficiently represent the results of applying patches.",
+  "version": "2.4.4",
+  "author": "Nathan Sobo <nathan@github.com>",
+  "browser": "./browser",
+  "bugs": "https://github.com/atom/superstring/issues",
+  "dependencies": {
+    "nan": "^2.14.2"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "mocha": "^2.3.4",
+    "random-seed": "^0.2.0",
+    "standard": "^10.0.3",
+    "temp": "~0.9.0",
+    "unzip": "^0.1.11"
+  },
+  "homepage": "https://github.com/atom/superstring",
+  "keywords": [
+    "data-structure",
+    "text"
+  ],
+  "license": "MIT",
+  "main": "./index",
+  "repository": "atom/superstring.git",
+  "scripts": {
+    "benchmark": "node benchmark/marker-index.benchmark.js",
+    "build": "npm run build:node && npm run build:browser",
+    "build:browser": "script/build-browser-version.sh",
+    "build:node": "node-gyp rebuild",
+    "prepublishOnly": "git submodule update --init --recursive && npm run build:browser",
+    "standard": "standard --recursive src test",
+    "test": "npm run test:node && npm run test:browser",
+    "test:browser": "SUPERSTRING_USE_BROWSER_VERSION=1 mocha test/js/*.js",
+    "test:native": "script/test-native.js",
+    "test:node": "mocha test/js/*.js"
+  },
+  "standard": {
+    "global": [
+      "describe",
+      "it",
+      "expect"
+    ]
+  }
+}
