@@ -1,43 +1,40 @@
 {
   "name": "@slaap/slap",
-  "version": "0.1.61",
   "description": "Sublime-like terminal-based text editor",
-  "preferGlobal": true,
-  "main": "lib/cli.js",
-  "publishConfig": {
-    "access": "public"
-  },
+  "version": "0.1.61",
+  "author": "",
   "bin": {
     "slap": "./slap.js"
   },
-  "scripts": {
-    "start": "./slap.js",
-    "debug": "node --debug ./slap.js",
-    "test": "spec/index.js",
-    "cover": "istanbul cover spec/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/slap-editor/slap.git"
-  },
   "bugs": "https://github.com/slap-editor/slap/issues",
-  "author": "",
-  "license": "MIT",
-  "deps": {
-    "editor-widget": "1.1.1"
-  },
   "dependencies": {
+    "base-widget": "1.1.0",
     "blessed": "0.1.81",
     "bluebird": "3.4.1",
-    "ttys": "0.0.3",
     "lodash": "4.14.1",
     "mkdirp": "0.5.1",
     "rc": "1.1.6",
-    "base-widget": "1.1.0",
-    "update-notifier": "1.0.3",
-    "slap-util": "1.0.7"
+    "slap-util": "1.0.7",
+    "ttys": "0.0.3",
+    "update-notifier": "1.0.3"
+  },
+  "deps": {
+    "editor-widget": "1.1.1"
   },
   "devDependencies": {
     "get-random-port": "0.0.1"
+  },
+  "license": "MIT",
+  "main": "lib/cli.js",
+  "preferGlobal": true,
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "slap-editor/slap.git",
+  "scripts": {
+    "cover": "istanbul cover spec/index.js",
+    "debug": "node --debug ./slap.js",
+    "start": "./slap.js",
+    "test": "spec/index.js"
   }
 }

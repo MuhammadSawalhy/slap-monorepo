@@ -1,21 +1,9 @@
 {
   "name": "@slaap/slap-util",
-  "version": "1.0.7",
   "description": "Miscellaneous code for slap-editor/slap",
-  "main": "index.js",
-  "scripts": {
-    "test": "spec/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/slap-editor/slap-util.git"
-  },
+  "version": "1.0.7",
   "author": "Dan Kaplun <dbkaplun@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/slap-editor/slap-util/issues"
-  },
-  "homepage": "https://github.com/slap-editor/slap-util#readme",
+  "bugs": "https://github.com/slap-editor/slap-util/issues",
   "dependencies": {
     "blessed": "0.1.81",
     "bluebird": "3.4.1",
@@ -26,5 +14,12 @@
   },
   "devDependencies": {
     "tape": "4.6.0"
+  },
+  "homepage": "https://github.com/slap-editor/slap-util#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "slap-editor/slap-util.git",
+  "scripts": {
+    "test": "spec/index.js"
   }
 }

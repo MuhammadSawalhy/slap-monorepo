@@ -1,15 +1,9 @@
 {
   "name": "@slaap/editor-widget",
-  "version": "1.1.1",
   "description": "Editor widget used by slap-editor/slap",
-  "main": "index.js",
-  "files": [
-    "./lib",
-    "./index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "version": "1.1.1",
+  "author": "Dan Kaplun <dbkaplun@gmail.com>",
+  "bugs": "https://github.com/slap-editor/editor-widget/issues",
   "dependencies": {
     "blessed": "0.1.81",
     "bluebird": "3.4.1",
@@ -28,17 +22,18 @@
     "get-random-port": "0.0.1",
     "tape": "4.6.0"
   },
+  "files": [
+    "./lib",
+    "./index.js"
+  ],
+  "homepage": "https://github.com/slap-editor/editor-widget#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "slap-editor/editor-widget.git",
   "scripts": {
     "test": "spec/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/slap-editor/editor-widget.git"
-  },
-  "author": "Dan Kaplun <dbkaplun@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/slap-editor/editor-widget/issues"
-  },
-  "homepage": "https://github.com/slap-editor/editor-widget#readme"
+  }
 }

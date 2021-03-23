@@ -1,28 +1,9 @@
 {
   "name": "@slaap/base-widget",
-  "version": "1.1.0",
   "description": "Editor widget used by slap-editor/slap",
-  "main": "index.js",
-  "files": [
-    "./lib",
-    "./index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/slap-editor/base-widget.git"
-  },
+  "version": "1.1.0",
   "author": "Dan Kaplun <dbkaplun@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/slap-editor/base-widget/issues"
-  },
-  "homepage": "https://github.com/slap-editor/base-widget#readme",
+  "bugs": "https://github.com/slap-editor/base-widget/issues",
   "dependencies": {
     "blessed": "^0.1.81",
     "bluebird": "^3.4.1",
@@ -30,5 +11,19 @@
     "rc": "^1.1.6",
     "slap-util": "^1.0.7",
     "through2": "^2.0.1"
+  },
+  "files": [
+    "./lib",
+    "./index.js"
+  ],
+  "homepage": "https://github.com/slap-editor/base-widget#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "slap-editor/base-widget.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

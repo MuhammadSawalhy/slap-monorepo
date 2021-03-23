@@ -1,27 +1,23 @@
 {
   "name": "@slaap/text-buffer",
-  "version": "13.18.5",
   "description": "A container for large mutable strings with annotated regions",
-  "main": "./lib/text-buffer",
-  "scripts": {
-    "prepublish": "npm run clean && npm run compile && npm run lint && npm run docs",
-    "docs": "node script/generate-docs",
-    "clean": "rimraf lib api.json",
-    "compile": "coffee --no-header --output lib --compile src && cpy src/*.js lib/",
-    "lint": "coffeelint -r src spec && standard src/*.js spec/*.js",
-    "test": "node script/test",
-    "ci": "npm run compile && npm run lint && npm run test && npm run bench",
-    "bench": "node benchmarks/index"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/atom/text-buffer.git"
-  },
-  "bugs": {
-    "url": "https://github.com/atom/text-buffer/issues"
-  },
+  "version": "13.18.5",
   "atomTestRunner": "atom-jasmine2-test-runner",
-  "license": "MIT",
+  "bugs": "https://github.com/atom/text-buffer/issues",
+  "dependencies": {
+    "delegato": "^1.0.0",
+    "diff": "^2.2.1",
+    "emissary": "^1.0.0",
+    "event-kit": "^2.4.0",
+    "fs-admin": "^0.16.0",
+    "fs-plus": "^3.0.0",
+    "grim": "^2.0.2",
+    "mkdirp": "^0.5.1",
+    "pathwatcher": "file:../node-pathwatcher",
+    "serializable": "^1.0.3",
+    "underscore-plus": "^1.0.0",
+    "winattr": "^3.0.0"
+  },
   "devDependencies": {
     "atom-jasmine2-test-runner": "^1.0.0",
     "coffee-cache": "^0.2.0",
@@ -43,19 +39,18 @@
     "temp": "^0.8.3",
     "yargs": "^6.5.0"
   },
-  "dependencies": {
-    "delegato": "^1.0.0",
-    "diff": "^2.2.1",
-    "emissary": "^1.0.0",
-    "event-kit": "^2.4.0",
-    "fs-admin": "^0.16.0",
-    "fs-plus": "^3.0.0",
-    "grim": "^2.0.2",
-    "mkdirp": "^0.5.1",
-    "pathwatcher": "file:../node-pathwatcher",
-    "serializable": "^1.0.3",
-    "underscore-plus": "^1.0.0",
-    "winattr": "^3.0.0"
+  "license": "MIT",
+  "main": "./lib/text-buffer",
+  "repository": "atom/text-buffer.git",
+  "scripts": {
+    "bench": "node benchmarks/index",
+    "ci": "npm run compile && npm run lint && npm run test && npm run bench",
+    "clean": "rimraf lib api.json",
+    "compile": "coffee --no-header --output lib --compile src && cpy src/*.js lib/",
+    "docs": "node script/generate-docs",
+    "lint": "coffeelint -r src spec && standard src/*.js spec/*.js",
+    "prepublish": "npm run clean && npm run compile && npm run lint && npm run docs",
+    "test": "node script/test"
   },
   "standard": {
     "env": {
