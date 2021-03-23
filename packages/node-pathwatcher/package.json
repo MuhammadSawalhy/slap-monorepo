@@ -1,6 +1,6 @@
 {
   "main": "./lib/main",
-  "name": "pathwatcher",
+  "name": "@slap-editor/pathwatcher",
   "files": [
     "./build/Release",
     "./lib"

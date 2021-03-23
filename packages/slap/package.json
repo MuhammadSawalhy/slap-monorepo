@@ -1,5 +1,5 @@
 {
-  "name": "slap",
+  "name": "@slap-editor/slap",
   "version": "0.1.61",
   "description": "Sublime-like terminal-based text editor",
   "preferGlobal": true,
