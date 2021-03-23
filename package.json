@@ -1,0 +1,20 @@
+{
+  "description": "Refactored and optimized version of slap-editor/slap",
+  "repository": "https://github.com/ms2052001/slap-monorepo",
+  "author": "Mohammed S. Al-Sawalhy",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "./packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "istanbul": "^0.4.4",
+    "tape": "^4.6.3"
+  },
+  "volta": {
+    "node": "14.16.0",
+    "yarn": "1.22.10"
+  },
+  "name": "slap-monorepo"
+}

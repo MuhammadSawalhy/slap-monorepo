@@ -1,0 +1,43 @@
+{
+  "name": "slap",
+  "version": "0.1.61",
+  "description": "Sublime-like terminal-based text editor",
+  "preferGlobal": true,
+  "main": "lib/cli.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "slap": "./slap.js"
+  },
+  "scripts": {
+    "start": "./slap.js",
+    "debug": "node --debug ./slap.js",
+    "test": "spec/index.js",
+    "cover": "istanbul cover spec/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slap-editor/slap.git"
+  },
+  "bugs": "https://github.com/slap-editor/slap/issues",
+  "author": "",
+  "license": "MIT",
+  "deps": {
+    "editor-widget": "1.1.1"
+  },
+  "dependencies": {
+    "blessed": "0.1.81",
+    "bluebird": "3.4.1",
+    "ttys": "0.0.3",
+    "lodash": "4.14.1",
+    "mkdirp": "0.5.1",
+    "rc": "1.1.6",
+    "base-widget": "1.1.0",
+    "update-notifier": "1.0.3",
+    "slap-util": "1.0.7"
+  },
+  "devDependencies": {
+    "get-random-port": "0.0.1"
+  }
+}
