@@ -5,6 +5,7 @@
   "atomTestRunner": "atom-jasmine2-test-runner",
   "bugs": "https://github.com/atom/text-buffer/issues",
   "dependencies": {
+    "@slaap/pathwatcher": "^8.1.0",
     "delegato": "^1.0.0",
     "diff": "^2.2.1",
     "emissary": "^1.3.2",
@@ -13,7 +14,6 @@
     "fs-plus": "^3.0.0",
     "grim": "^2.0.2",
     "mkdirp": "^0.5.1",
-    "@slaap/pathwatcher": "file:../node-pathwatcher",
     "serializable": "^1.0.3",
     "underscore-plus": "^1.0.0",
     "winattr": "^3.0.0"

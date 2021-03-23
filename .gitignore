@@ -1,3 +1,8 @@
+
+packages/text-buffer/lib
+
+#####################################3333
+
 node_modules/
 .vscode/
 .vim/

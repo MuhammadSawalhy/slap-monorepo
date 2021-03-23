@@ -309,7 +309,7 @@ endif
 
 quiet_cmd_regen_makefile = ACTION Regenerating $@
 cmd_regen_makefile = cd $(srcdir); /home/ms/myp/bugless-related/slap-monorepo/node_modules/@npmcli/run-script/node_modules/node-gyp/gyp/gyp_main.py -fmake --ignore-environment "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=/home/ms/.cache/node-gyp/14.16.0" "-Dnode_gyp_dir=/home/ms/myp/bugless-related/slap-monorepo/node_modules/@npmcli/run-script/node_modules/node-gyp" "-Dnode_lib_file=/home/ms/.cache/node-gyp/14.16.0/<(target_arch)/node.lib" "-Dmodule_root_dir=/home/ms/myp/bugless-related/slap-monorepo/packages/node-pathwatcher" "-Dnode_engine=v8" "--depth=." "-Goutput_dir=." "--generator-output=build" -I/home/ms/myp/bugless-related/slap-monorepo/packages/node-pathwatcher/build/config.gypi -I/home/ms/myp/bugless-related/slap-monorepo/node_modules/@npmcli/run-script/node_modules/node-gyp/addon.gypi -I/home/ms/.cache/node-gyp/14.16.0/include/node/common.gypi "--toplevel-dir=." binding.gyp
-Makefile: $(srcdir)/build/config.gypi $(srcdir)/binding.gyp $(srcdir)/../../node_modules/@npmcli/run-script/node_modules/node-gyp/addon.gypi $(srcdir)/../../../../../.cache/node-gyp/14.16.0/include/node/common.gypi
+Makefile: $(srcdir)/build/config.gypi $(srcdir)/../../node_modules/@npmcli/run-script/node_modules/node-gyp/addon.gypi $(srcdir)/../../../../../.cache/node-gyp/14.16.0/include/node/common.gypi $(srcdir)/binding.gyp
 	$(call do_cmd,regen_makefile)
 
 # "all" is a concatenation of the "all" targets from all the included

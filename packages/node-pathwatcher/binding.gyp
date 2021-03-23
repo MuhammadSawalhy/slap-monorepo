@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "@slaap/pathwatcher",
+      "target_name": "pathwatcher",
       "sources": [
         "src/main.cc",
         "src/common.cc",

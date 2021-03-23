@@ -5,6 +5,7 @@
   "author": "Dan Kaplun <dbkaplun@gmail.com>",
   "bugs": "https://github.com/slap-editor/editor-widget/issues",
   "dependencies": {
+    "@slaap/slap-util": "^1.0.7",
     "blessed": "^0.1.81",
     "bluebird": "^3.4.1",
     "cheerio": "^0.20.0",
@@ -15,8 +16,7 @@
     "lodash": "^4.14.2",
     "minimist": "1.2.0",
     "rc": "^1.1.6",
-    "semver": "5.3.0",
-    "@slaap/slap-util": "^1.0.7"
+    "semver": "5.3.0"
   },
   "devDependencies": {
     "get-random-port": "0.0.1",
