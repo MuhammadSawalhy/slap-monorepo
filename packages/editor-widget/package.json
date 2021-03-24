@@ -34,6 +34,7 @@
   },
   "repository": "slap-editor/editor-widget.git",
   "scripts": {
-    "test": "spec/index.js"
+    "test": "spec/index.js",
+    "example": "node ./example.js"
   }
 }

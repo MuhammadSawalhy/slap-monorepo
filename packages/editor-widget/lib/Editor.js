@@ -779,7 +779,10 @@ Editor.prototype._updateContent = function () {
       .push(_.repeat(' ', size.column))
       .tag(defaultStyle);
 
-    self.textBuf.findMarkers({intersectsRow: row}).sort(Editor.markerCmp).forEach(function (marker) {
+    self.textBuf
+    .findMarkers({intersectsRow: row})
+    .sort(Editor.markerCmp)
+    .forEach(function (marker) {
       var range = self.visiblePos(marker.getRange());
       if (range.intersectsRow(row)) {
         var markerStyle;
@@ -813,7 +816,7 @@ Editor.prototype._updateContent = function () {
 
     bufferContent.push(line + '{/}');
 
-    var gutterLine = _.padLeft(row + 1, lineNumberWidth) + _.repeat(' ', gutterWidth);
+    var gutterLine = _.padStart(row + 1, lineNumberWidth) + _.repeat(' ', gutterWidth);
 
     if (currentLineStyle && row === visibleCursor.row) {
       gutterLine = util.markup(gutterLine, currentLineStyle);
