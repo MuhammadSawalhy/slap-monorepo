@@ -6,9 +6,8 @@ var rc = require('rc');
 var util = require('@slaap/slap-util');
 var ttys = require('ttys');
 var package = require('../package');
-var baseDir = path.join(__dirname, '..');
-var configFile = path.join(baseDir, package.name + '.ini');
-var opts = util.parseOpts(rc(package.name, configFile));
+var configFile = path.resolve(__dirname, '../slap.ini');
+var opts = util.parseOpts(rc('slap', configFile));
 opts = _.merge(opts, opts.slap);
 
 var info = console._error || console.error;
