@@ -1,13 +1,13 @@
 {
-  "name": "slap-monorepo",
+  "name": "slap",
   "description": "Refactored and optimized version of slap-editor/slap",
   "author": "Mohammed S. Al-Sawalhy",
   "devDependencies": {
-    "istanbul": "^0.4.4",
+    "istanbul": "^0.4.5",
     "lerna": "^4.0.0",
     "lerna-update-wizard": "^0.17.8",
     "syncpack": "^5.7.11",
-    "tape": "^4.6.3"
+    "tape": "^5.2.2"
   },
   "license": "MIT",
   "private": true,

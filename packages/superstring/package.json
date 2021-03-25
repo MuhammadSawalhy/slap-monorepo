@@ -9,11 +9,11 @@
     "nan": "^2.14.2"
   },
   "devDependencies": {
-    "chai": "^2.0.0",
-    "mocha": "^2.3.4",
-    "random-seed": "^0.2.0",
-    "standard": "^10.0.3",
-    "temp": "^0.9.0",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "random-seed": "^0.3.0",
+    "standard": "^16.0.3",
+    "temp": "^0.9.4",
     "unzip": "^0.1.11"
   },
   "homepage": "https://github.com/atom/superstring",
