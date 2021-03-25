@@ -10,16 +10,16 @@
     "bluebird": "^3.4.1",
     "cheerio": "^0.20.0",
     "copy-paste": "^1.1.4",
-    "es6-set": "0.1.4",
-    "highlight.js": "9.5.0",
-    "iconv-lite": "0.4.13",
+    "es6-set": "^0.1.4",
+    "highlight.js": "^9.5.0",
+    "iconv-lite": "^0.4.13",
     "lodash": "^4.14.2",
-    "minimist": "1.2.0",
+    "minimist": "^1.2.0",
     "rc": "^1.1.6",
-    "semver": "5.3.0"
+    "semver": "^5.3.0"
   },
   "devDependencies": {
-    "get-random-port": "0.0.1",
+    "get-random-port": "^0.0.1",
     "tape": "^4.6.3"
   },
   "files": [

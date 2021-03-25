@@ -13,7 +13,7 @@
     "mocha": "^2.3.4",
     "random-seed": "^0.2.0",
     "standard": "^10.0.3",
-    "temp": "~0.9.0",
+    "temp": "^0.9.0",
     "unzip": "^0.1.11"
   },
   "homepage": "https://github.com/atom/superstring",
